@@ -4,6 +4,7 @@
   "description": "Submission for The Odin Project's \"Testing Practice\" project.",
   "main": "index.js",
   "scripts": {
+    "doc": "jsdoc -c jsdoc.json",
     "test": "jest --testPathPattern=src"
   },
   "repository": {
