@@ -1,8 +1,12 @@
 /**
+ * @module
+ */
+
+/**
  * Returns a string with its first character capitalized.
  * 
- * @param {string} string A string. 
- * @returns {string} string argument with first character in uppercase.
+ * @param {string} string String to capitalize first character of. 
+ * @returns {string} String passed with first character in uppercase.
  * 
  * @example 
  * let eminem = capitalize("slim shady");
