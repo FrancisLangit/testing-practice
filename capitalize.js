@@ -1,5 +1,5 @@
-function sum(a, b) {
-    return a + b;
-  }
+function capitalize(string) {
+    return null;
+}
 
-export { sum }
+export { capitalize }
