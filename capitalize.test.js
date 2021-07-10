@@ -1,5 +1,5 @@
 import { capitalize } from './capitalize';
 
-test('Capitalize', () => {
-    expect(capitalize("hello")).toBe("Hello");
+test('Capitalize first letter in string "slim shady"', () => {
+    expect(capitalize("slim shady")).toBe("Slim shady");
 });
