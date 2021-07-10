@@ -1,4 +1,6 @@
 /**
+ * Module containing and exporting capitalize function.
+ * 
  * @module
  */
 
