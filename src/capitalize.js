@@ -8,7 +8,7 @@
  * let eminem = capitalize("slim shady");
  * console.log(eminem); // Will log "Slim shady" in console.
  */
-function capitalize(string) {
+const capitalize = (string) => {
     return string[0].toUpperCase() + string.slice(1);
 }
 
