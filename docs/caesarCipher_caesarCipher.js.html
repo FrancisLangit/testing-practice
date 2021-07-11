@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: capitalize/capitalize.js</title>
+    <title>JSDoc: Source: caesarCipher/caesarCipher.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: capitalize/capitalize.js</h1>
+    <h1 class="page-title">Source: caesarCipher/caesarCipher.js</h1>
 
     
 
@@ -27,27 +27,33 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * Module containing and exporting capitalize function.
+ * Module holding and exporting caesarCipher function.
  * 
  * @module
  */
 
+
 /**
- * Returns a string with its first character capitalized.
+ * Encrypts a string using a caesar cipher.
  * 
- * @param {string} string String to capitalize first character of. 
- * @returns {string} String passed with first character in uppercase.
+ * @param {string} string String to encrypt. 
+ * @param {int} key Key of cipher. Offset applied to each letter in string.
  * 
- * @example 
- * let eminem = capitalize("slim shady");
- * console.log(eminem); // Will log "Slim shady" in console.
+ * @returns String encrypted using a caesar cipher.
+ * 
+ * @example
+ * let string = "I'm the real slim shady.";
+ * let encryptedString = caesarCipher(string, 13);
+ * 
+ * // Logs "v'z gur erny fyvz funql." in console.
+ * console.log(encryptedString); 
  */
-const capitalize = (string) => {
-    return string[0].toUpperCase() + string.slice(1);
+const caesarCipher = (string, key) => {
+    return null;
 }
 
 
-export { capitalize }</code></pre>
+export { caesarCipher }</code></pre>
         </article>
     </section>
 
