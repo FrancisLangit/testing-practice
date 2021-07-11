@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: capitalize/capitalize.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,39 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: capitalize/capitalize.js</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * Module containing and exporting capitalize function.
+ * 
+ * @module
+ */
+
+/**
+ * Returns a string with its first character capitalized.
+ * 
+ * @param {string} string String to capitalize first character of. 
+ * @returns {string} String passed with first character in uppercase.
+ * 
+ * @example 
+ * let eminem = capitalize("slim shady");
+ * console.log(eminem); // Will log "Slim shady" in console.
+ */
+const capitalize = (string) => {
+    return string[0].toUpperCase() + string.slice(1);
+}
 
 
-    <h3> </h3>
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+export { capitalize }</code></pre>
+        </article>
+    </section>
 
 
 
