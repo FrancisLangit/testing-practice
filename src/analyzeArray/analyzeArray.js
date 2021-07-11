@@ -20,7 +20,12 @@
  * console.log(analyzedArray);
  */
 const analyzeArray = (array) => {
-    return null;
+    return {
+        'average': array.reduce((p, c) => p + c, 0) / array.length,
+        'min': Math.min(...array),
+        'max': Math.max(...array),
+        'length': array.length,
+    };
 }
 
 
