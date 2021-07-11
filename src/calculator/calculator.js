@@ -1,8 +1,8 @@
 const calculator = {
-    add: (numberA, numberB) => numberA + numberB,
-    subtract: (numberA, numberB) => null,
-    multiply: (numberA, numberB) => null,
-    divide: (numberA, numberB) => null,
+    add:      (numberA, numberB) => numberA + numberB,
+    subtract: (numberA, numberB) => numberA - numberB,
+    multiply: (numberA, numberB) => numberA * numberB,
+    divide:   (numberA, numberB) => numberA / numberB,
 }
 
 
