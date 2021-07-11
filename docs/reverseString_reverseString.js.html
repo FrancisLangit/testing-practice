@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: reverseString/reverseString.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,44 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: reverseString/reverseString.js</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * Module containing and exporting reverseString function.
+ * 
+ * @module
+ */
 
 
-    <h3> </h3>
+import esrever from 'esrever';
 
 
+/**
+ * Returns a reversed version of the string passed to it. Uses
+ * {@link https://git.io/esrever|esrever} library as a dependency.
+ * 
+ * @param {string} string String to reverse.
+ * @returns {string} Reversed version of the string passed.
+ * 
+ * @example
+ * let reversedString = reverseString("foo 𝌆 bar mañana mañana");
+ * console.log(reversedString); // Logs "anañam anañam rab 𝌆 oof" in console.
+ */
+const reverseString = (string) => {
+    return esrever.reverse(string);
+}
 
 
-
-
-
-
-
-
-    
-
-
-
-
-
+export { reverseString }</code></pre>
+        </article>
+    </section>
 
 
 
