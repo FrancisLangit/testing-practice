@@ -6,7 +6,7 @@
 
 1. Clone the repository with `git clone https://github.com/FrancisLangit/testing-practice` or download it as a `.zip` file.
 2. Navigate to where the repository is saved on your local machine on your command line.
-3. Use [`npm install`](https://docs.npmjs.com/cli/v7/commands/npm-install) to install the respository's dependencies.
+3. Use [`npm install`](https://docs.npmjs.com/cli/v7/commands/npm-install) to install the repository's dependencies.
 
 ## Usage
 
