@@ -7,6 +7,6 @@ test('Caesar cipher of string offset by 1', () => {
 
 test('Caesar cipher of alpha-numberic string offset by 13', () => {
     let input = 'The 5 quick brown foxes jump over the 10 lazy dogs.';
-    let output = 'ymj 5 vznhp gwtbs ktcjx ozru tajw ymj 10 qfed itlx.';
+    let output = 'Gur 5 dhvpx oebja sbkrf whzc bire gur 10 ynml qbtf.';
     expect(caesarCipher(input, 13)).toBe(output);
 });
