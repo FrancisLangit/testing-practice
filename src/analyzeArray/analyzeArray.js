@@ -6,8 +6,8 @@
 
 
 /**
- * Takes an array of numbers returns an object with the average, min, max, and
- * length of numbers in such array.
+ * Takes an array of numbers and returns an object with the average, min, max, 
+ * and length of numbers in such array.
  * 
  * @param {Array} array Array of integers to be analyzed.
  * 
